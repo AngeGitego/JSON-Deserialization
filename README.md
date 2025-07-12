@@ -13,9 +13,9 @@ Create a new Unity project.
 Add a Canvas GameObject to the scene.
 Create a Title Text UI element that displays the ProjectName from the JSON file.
 3. Dynamic Button Generation
-Deserialize the workoutInfo array from the JSON file.
+Deserialise the workoutInfo array from the JSON file.
 Dynamically generate UI buttons based on the number of objects in workoutInfo.
-Display the workoutName on each button.
+Display the workout name on each button.
 (Bonus) Generate buttons at runtime and assign functionalities dynamically.
 4. Workout Selection & Ball Spawning
 Add a single Play/Pause button to manage ball spawning.
