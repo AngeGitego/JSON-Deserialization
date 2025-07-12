@@ -1,9 +1,9 @@
 Objective
-This project will enhance your understanding of JSON deserialization, dynamic UI generation, and coroutines in Unity using C#. You will load data from a JSON file, dynamically create UI elements, and implement gameplay mechanics based on the deserialized data.
+This project will enhance your understanding of JSON deserialization, dynamic UI generation, and coroutines in Unity using C#. You will load data from a JSON file, dynamically create UI elements, and implement gameplay mechanics based on the deserialised data.
 
 Project Requirements
 1. JSON File Setup
-Use the JSON file set up hereLinks to an external site..
+Use the JSON file set up here.
 Add a new attribute to the JSON file:
 "ProjectName": "Isiaq JSON Project"
 The ProjectName attribute should follow the format: Your Name + "JSON Project".
@@ -40,6 +40,6 @@ Each ball must spawn one at a time, not all at once.
 Use coroutines to introduce a 2-second delay between spawns.
 The ballDirection attribute should map as follows:
 "right" → 0.5f
-"center" → 0f
+"centre" → 0f
 "left" → -0.5f
 Move the ball using AddForce() on the Rigidbody component, applying force in the correct direction.
